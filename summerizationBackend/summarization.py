@@ -5,8 +5,8 @@ from flask import (
 bp = Blueprint('summarization', __name__)
 
 
-@bp.route('/cause', methods='POST')
-def generate_cause():
+@bp.route('/keyword', methods='POST')
+def generate_keyword():
     pass
 
 
